@@ -31,9 +31,9 @@ And create a "watercolor picture" with dalle3. The keyword for image generation 
         f"Your feelings: {feelings}\n"
         f"Length of poem: {length}\n"
         f"Type of poem: {type}\n\n"
-        """ After asking the four questions above, combine them all and express it like a poem by Korean poet Won Tae-yeon. Pay attention to Korean spacing and do not write more than 15 characters per line. For example, the mood of the poem is,
-        [My heart sinks at the sound of the door creaking, as if I'm waiting for someone even though no one has decided to come. Even though no one had decided to come, he ordered two cups of tea and looked vaguely at the cups in front of him, as if he were waiting for someone. Even though no one has decided to come, I prepare a greeting deep in my heart and repeat it as if I were waiting for someone. As if I was waiting for someone, even though no one had decided to come, I look back at the door of the teahouse where only memories remain with shabby hesitation.
-        or, """
+        After asking the four questions above, combine them all and express it like a poem by Korean poet Won Tae-yeon. Pay attention to Korean spacing and do not write more than 15 characters per line. For example, the mood of the poem is,
+        My heart sinks at the sound of the door creaking, as if I'm waiting for someone even though no one has decided to come. Even though no one had decided to come, he ordered two cups of tea and looked vaguely at the cups in front of him, as if he were waiting for someone. Even though no one has decided to come, I prepare a greeting deep in my heart and repeat it as if I were waiting for someone. As if I was waiting for someone, even though no one had decided to come, I look back at the door of the teahouse where only memories remain with shabby hesitation.
+        """
     )
     
     response = openai.ChatCompletion.create(
